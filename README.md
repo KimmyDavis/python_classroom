@@ -8,7 +8,7 @@ I'm currently learning python through a textbook titled programming python by Ma
 
 ## aim
 
-After "Learning python", I plan to embark on "programming python" so that I gain a stronger grip of the languange while doing projects along the way
+After "Learning python", I plan to embark on "programming python", another book by the same author, so that I gain a stronger grip of the languange while doing projects along the way
 
 ## Journey
 
