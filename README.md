@@ -18,10 +18,10 @@ After "Learning python", I plan to embark on "programming python", another book 
 - [x] Types and operations in python
 - [x] Statements and syntax
 - [x] Functions
-- [ ] Modules
+- [x] Modules
 - [ ] Classes and OOP
 - [ ] Exceptions and Tools
-- [ ] Advanved Topics (unicode and bytetrings, decorators, managed attributes...)
+- [ ] Advanved Topics (unicode and bytestrings, decorators, managed attributes...)
 
 ```python
 print("I got this!😉")
