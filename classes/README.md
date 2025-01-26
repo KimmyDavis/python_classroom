@@ -100,3 +100,41 @@ print(blue_shirt.color) # -> blue
 however if this function is not available, it is simply ignored.
 
 ### Operator overloading
+
+This is the ability of a class to override the normal behavior of operators in expressions.
+
+It is possible through the use of special method names in a class. These names begin and end with double underscores.
+
+This includes operations like:
+
+- class construction
+- addition expressions
+- multiplication
+- print statements
+- ... and many others
+
+```python
+class overider:
+    __init__(): pass # this constructs the class
+    __add__(): pass # this changes behavior when the class is found in + statements
+    __str__(): pass # this changes the way the class looks in print statements
+    ... # and many others
+```
+
+To better support customization, classes allow you to create new methods from exixsting methods with the `super()` class refernce or directly calling the method on the class on which it is attached.
+
+```python
+class Parent:
+    def __init__(self, attr1, attr2):
+    self.attr1 = attr1
+    self.attr2 = attr2
+
+    def meth1(self, sth):
+        return 25 + sth
+
+class Child(Parent):
+    def __init__(self, attr1):
+        super().__init__(attr1, "my_val")
+    def meth1(self):
+        Parent.meth1(self, 26)
+```
