@@ -121,7 +121,7 @@ class overider:
     ... # and many others
 ```
 
-To better support customization, classes allow you to create new methods from exixsting methods with the `super()` class refernce or directly calling the method on the class on which it is attached.
+To better support customization, classes allow you to create new methods from existing methods with the `super()` class refernce or directly calling the method on the class on which it is attached.
 
 ```python
 class Parent:
